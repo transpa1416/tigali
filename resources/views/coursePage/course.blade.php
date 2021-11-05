@@ -17,14 +17,13 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Start Bootstrap</div>
+                <div class="sidebar-heading border-bottom bg-light">Writer</div>
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Dashboard</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Shortcuts</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Overview</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Events</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">Capitulo 1</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap2">Cápitulo 2</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap3">Cápitulo 3</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap4">Cápitulo 4</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap5">Cápitulo 5</a>
                 </div>
             </div>
             <!-- Page content wrapper-->
@@ -52,20 +51,11 @@
                     </div>
                 </nav>
                 <!-- Page content-->
-                <div class="container-fluid">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="{{ asset('media/writer/introduccion.mp4') }}" allowfullscreen></iframe>
+                <main>
+                    <div class="container-fluid">
+                        @yield('content')
                     </div>
-                    <h1 class="mt-4">Simple Sidebar</h1>
-                    <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-                    <p>
-                        Make sure to keep all page content within the
-                        <code>#page-content-wrapper</code>
-                        . The top navbar is optional, and just for demonstration. Just create an element with the
-                        <code>#sidebarToggle</code>
-                        ID which will toggle the menu when clicked.
-                    </p>
-                </div>
+                </main>
             </div>
         </div>
         <!-- Bootstrap core JS-->
