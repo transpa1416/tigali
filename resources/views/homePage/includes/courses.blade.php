@@ -23,7 +23,7 @@
                             <div id="collapse30" class="collapse show" role="tabpanel" aria-labelledby="heading30" data-parent="#accordionEx5">
                                 <div class="card-body rgba-black-light white-text z-depth-1">
                                     <p class="card-text">LibreOffice Writer es el componente procesador de texto de código abierto del paquete de software LibreOffice, que compite con el MS Word y que esta en rápido crecimiento en el mundo. Cada vez son más las personas como tú desean aprender de él y más si es en muy corto tiempo</p>
-                                    <p class="card-text"><a class="btn btn-secondary" href="/register" role="button">Inscribirse</a></p>
+                                    <p class="card-text"><a class="btn btn-secondary" href="/course/writer" role="button">Inscribirse</a></p>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                             <div id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31" data-parent="#accordionEx5">
                                 <div class="card-body rgba-black-light white-text z-depth-1">
                                     <p class="card-text">El curso de Libreoffice Calc para principiantes es sobre como aprender a usar una hoja de cálculo de manera fácil y aplicar lo aprendido en la vida diaria a través de ejemplos prácticos y sencillos. El curso es específicamente sobre el Libreoffice Calc, la hoja de cálculo que hace parte de la suite de herramientas de oficina de software libre, Libreoffice</p>
-                                    <p class="card-text"><a class="btn btn-secondary" href="/register" role="button">Inscribirse</a></p>
+                                    <p class="card-text"><a class="btn btn-secondary" href="/course/calc" role="button">Inscribirse</a></p>
                                 </div>
                             </div>
                         </div>

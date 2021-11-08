@@ -410,11 +410,7 @@
             <!-- /#sidebar-wrapper -->
             <!-- main Content -->
                 <main>
-                    <div class="container-fluid paper vh-100">
-                        <div class="paper-content">
-                            @yield('content')
-                        </div>
-                    </div>
+                    @yield('content')
                 </main>
             <!-- /#main-content -->
         </div>

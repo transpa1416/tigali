@@ -1,4 +1,4 @@
-@extends('coursePage.course')
+@extends('coursePage.cinema')
 
 @section('content')
     <div class="embed-responsive embed-responsive-16by9">
