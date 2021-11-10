@@ -118,7 +118,7 @@
                         <div id="collapse2" class="collapse" aria-labelledby="writer2" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/02/formatText">
                                         <i class="fas fa-book-reader"></i> Tipos de formato de texto
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
@@ -410,9 +410,11 @@
             <!-- /#sidebar-wrapper -->
             <!-- main Content -->
                 <main>
-                    <div class="container-fluid paper vh-100">
-                        <div class="paper-content">
-                            @yield('content')
+                    <div class="container-fluid vh-100">
+                        <div class="paper">
+                            <div class="paper-content paper-content-textarea scrollbar style-1">
+                                @yield('content')
+                            </div>
                         </div>
                     </div>
                 </main>

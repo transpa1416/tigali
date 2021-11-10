@@ -18,6 +18,7 @@ Route::get('/', function () { return view('/homePage/home'); });
 //Curso Writer
 Route::get('/course/writer', function () { return view('/coursePage/includes/writer/modules/intro'); });
 Route::get('/course/writer/module/01/environment', function () { return view('/coursePage/includes/writer/modules/01/environment'); });
+Route::get('/course/writer/module/02/formatText', function () { return view('/coursePage/includes/writer/modules/02/formatText'); });
 Route::get('/course/writer/cap1', function () { return view('/coursePage/includes/writer/cap1'); });
 Route::get('/course/writer/cap2', function () { return view('/coursePage/includes/writer/cap2'); });
 Route::get('/course/writer/cap3', function () { return view('/coursePage/includes/writer/cap3'); });
