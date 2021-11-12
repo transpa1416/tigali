@@ -18,6 +18,11 @@ class TopicsTable extends Migration
             $table->bigInteger('modules_id')->unsigned()->index()->nullable()->comment('Llave foranea con tabla modules');
             $table->bigInteger('categoryTopicsType_id')->unsigned()->index()->nullable()->comment('Llave foranea con tabla CategoryTopicsType');
             $table->string('title',150)->unique()->comment('Título del modulo');
+            $table->boolean('isPresentation')->default(0)->comment('Mostrará un carrusel de imagenes');
+            $table->boolean('isHTMl')->default(0)->comment('Mostrará texto HTML');
+            $table->boolean('isVideo')->default(0)->comment('Mostrará video');
+            $table->boolean('isActivity')->default(0)->comment('Mostrará actividad');
+            $table->boolean('isExam')->default(0)->comment('Mostrará examen');
             $table->boolean('isActive')->default(0)->comment('0 Inactivo/ 1 Activo');
             $table->timestamps();
             $table->foreign('modules_id')->references('id')->on('ModulesCourse')->onUpdate('cascade')->onDelete('cascade');
