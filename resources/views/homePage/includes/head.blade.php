@@ -9,3 +9,4 @@
 <link href="{{ asset('css/homepage/carousel.css') }}" rel="stylesheet">
 <!-- Archivos Bootstrap Javascrip -->
 <script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/homePage/auth.js') }}" defer></script>
