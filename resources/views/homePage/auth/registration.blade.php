@@ -64,11 +64,11 @@
 </main>
 
 <!-- Button trigger modal -->
-<div class="button">
+{{-- <div class="button">
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
         Inscribirse
     </button>
-</div>
+</div> --}}
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

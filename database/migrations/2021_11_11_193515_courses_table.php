@@ -19,6 +19,7 @@ class CoursesTable extends Migration
             $table->string('description',250)->nullable()->default(null)->comment('Descripción del curso');
             $table->boolean('isActive')->default(0)->comment('0 Inactivo/ 1 Activo');
             $table->boolean('allowRegistration')->default(0)->comment('0 No permitir/ 1 Permitir');
+            $table->timestamps();
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_unicode_ci';
         });

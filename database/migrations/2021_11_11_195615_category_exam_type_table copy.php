@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class TypeTopicsTable extends Migration
+class CategoryExamTypeTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,12 @@ class TypeTopicsTable extends Migration
      */
     public function up()
     {
-        Schema::create('CategoryTopicsType', function (Blueprint $table) {
+        Schema::create('CategoryExamType', function (Blueprint $table) {
             $table->id();
-            $table->string('name',150)->unique()->comment('Nombre de la categoría de tema');
-            $table->string('description',250)->nullable()->default(null)->comment('Descripción de la categoría de tema');
+            $table->string('name',150)->unique()->comment('Nombre del tipo de examen');
+            $table->string('description',200)->nullable()->default(null)->comment('Descripción del tipo de examen');
+            $table->boolean('isActive')->default(1);
+            $table->timestamps();
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_unicode_ci';
         });
@@ -29,6 +31,6 @@ class TypeTopicsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('CategoryTopicsType');
+        Schema::dropIfExists('CategoryExamType');
     }
 }
