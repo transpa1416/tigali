@@ -175,16 +175,16 @@
                         <div id="collapse4" class="collapse" aria-labelledby="writer4" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/04/formatPage">
                                         <i class="fas fa-book-reader"></i> Formato de página
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/04/headerFooter">
                                         <i class="fas fa-book-reader"></i> Encabezados y pies de página
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/04/printerOptions">
                                         <i class="fas fa-book-reader"></i> Opciones de impresión
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/04/exportToPDF">
                                         <i class="fas fa-book-reader"></i> Exportar a PDF
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
@@ -211,11 +211,11 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap3">
                                         <i class="fas fa-film"></i> Insertar y ajustar una imagen
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/05/imageLink">
                                         <i class="fas fa-book-reader"></i> Anclaje y ajuste de imagenes
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Aplicar fectos y recortar
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/05/applyEffect">
+                                        <i class="fas fa-book-reader"></i> Aplicar efectos y recortar
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
                                         <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
