@@ -106,7 +106,7 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/documentActions">
                                         <i class="fas fa-book-reader"></i> Editar, abrir y guardar documentos
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/practice01">
                                         <i class="fas fa-diagnoses"></i> Reafirma tus conocimientos
                                     </a>
                                 </div>
@@ -133,7 +133,7 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/02/vignette">
                                         <i class="fas fa-film"></i> Numeración y viñetas
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/02/practice01">
                                         <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
                                     </a>
                                 </div>
