@@ -19,22 +19,21 @@
                             </div>
 
                             <div class="form-group mb-3">
-                                <input type="password" placeholder="Password" id="password" class="form-control" name="password" required>
+                                <input type="password" placeholder="Contraseña" id="password" class="form-control" name="password" required>
                                 @if ($errors->has('password'))
                                 <span class="text-danger">{{ $errors->first('password') }}</span>
                                 @endif
                             </div>
-
+                            <div class="d-grid mx-auto">
+                                <button type="submit" class="btn btn-dark btn-block">Inicia sesión</button>
+                            </div>
+                            <br>
                             <div class="form-group mb-3">
                                 <div class="checkbox">
                                     <label>
                                         ¿No tienes una cuenta? <a href="/register"> Regístrate </a>
                                     </label>
                                 </div>
-                            </div>
-
-                            <div class="d-grid mx-auto">
-                                <button type="submit" class="btn btn-dark btn-block">Signin</button>
                             </div>
                         </form>
 

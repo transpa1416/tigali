@@ -32,9 +32,6 @@
                     <div class="carousel-item" data-slide-number="8">
                         <img src="{{ asset('images/courses/writer/module01/topic03/ces08.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic03/ces08.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                     </div>
-                    <div class="carousel-item" data-slide-number="9">
-                        <img src="{{ asset('images/courses/writer/module01/topic03/ces09.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic03/ces09.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
-                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -82,9 +79,6 @@
                         </div>
                         <div id="carousel-selector-8" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">
                             <img src="{{ asset('images/courses/writer/module01/topic03/ces08.png') }}" class="img-fluid" alt="...">
-                        </div>
-                        <div id="carousel-selector-9" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">
-                            <img src="{{ asset('images/courses/writer/module01/topic03/ces09.png') }}" class="img-fluid" alt="...">
                         </div>
                     </div>
                 </div>

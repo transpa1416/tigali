@@ -54,6 +54,12 @@
                             <div class="d-grid mx-auto">
                                 <button type="submit" class="btn btn-dark btn-block">Registrate</button>
                             </div>
+                            <br/>
+                            <div class="checkbox">
+                                <label>
+                                    Si ya tienes cuenta<a href="/login"> Inicia sesión </a>
+                                </label>
+                            </div>
                         </form>
 
                     </div>
