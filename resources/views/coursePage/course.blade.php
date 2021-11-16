@@ -58,7 +58,7 @@
                                 Sesiones Zoom (Proximamente...)
                             </button>
                         </h2>
-                        <div id="collapseZoom" class="collapse" aria-labelledby="zoom" data-parent="#accordionWriter">
+                        {{-- <div id="collapseZoom" class="collapse" aria-labelledby="zoom" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
@@ -66,7 +66,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Sesiones Zoom --}}
                     {{-- 0. Elemento: Presentacion --}}
@@ -100,7 +100,16 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/environment">
                                         <i class="fas fa-book-reader"></i> Componentes de writer
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/settings">
+                                        <i class="fas fa-book-reader"></i> Configuración
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/documentActions">
+                                        <i class="fas fa-book-reader"></i> Editar, abrir y guardar documentos
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/otherOptions">
+                                        <i class="fas fa-book-reader"></i> Otras opciones
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/">
                                         <i class="fas fa-diagnoses"></i> Evaluación parcial
                                     </a>
                                 </div>
@@ -121,10 +130,10 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/02/formatText">
                                         <i class="fas fa-book-reader"></i> Tipos de formato de texto
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/02/basicSeetings">
                                         <i class="fas fa-film"></i> Herramientas básicas
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap2">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/02/vignette">
                                         <i class="fas fa-film"></i> Numeración y viñetas
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
@@ -239,9 +248,6 @@
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-film"></i> Predeterminar idioma al documento
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
                                         <i class="fas fa-book-reader"></i> Corrección ortográfica
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
@@ -271,10 +277,10 @@
                         <div id="collapse7" class="collapse" aria-labelledby="writer7" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap4">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/07/columnsSections">
                                         <i class="fas fa-film"></i> Columnas, saltos y secciones
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap5">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/07/createTable">
                                         <i class="fas fa-film"></i> Creación de tablas
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
