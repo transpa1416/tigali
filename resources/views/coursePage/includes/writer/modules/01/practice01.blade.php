@@ -50,5 +50,56 @@
     <li class="list-group-item">
         <i class="fas fa-circle"></i> Excelente, hemos terminado
     </li>
+    {{-- Ejercicio 04 --}}
+    <li class="list-group-item list-group-item-success">
+        Ejercicio 04 Jugaremos "Piedra, Papel o Tijera"
+    </li>
+    <li class="list-group-item">
+        <i class="fas fa-circle"></i> Juan Gabriel necesita tu ayuda, está en pleno concierto y no se sabe la canción
+    </li>
+    <li class="list-group-item">
+       <i class="fas fa-circle"></i> Descarga el archivo <a href={{ asset('downloads\writer\module01\practice\el-noa-noa.odt') }} >El Noa noa</a>
+    </li>
+    <li class="list-group-item">
+        <i class="fas fa-circle"></i> Ordena la canción, copiando y pegando las estrofas, para que quede como se muestra a continuación
+    </li>
+    <li class="list-group-item">
+        Cuándo quieras tu, divertirte más <br>
+        Y bailar sin fin, yo sé de un lugar <br>
+        Que te llevaré <br>
+        (Vamos al noa) <br>
+        Y disfrutarás <br>
+        (Vamos al noa) <br>
+        De una noche que nunca olvidarás <br>
+        ¿Quieres bailar esta noche? <br>
+        Vamos al noa, noa, noa <br>
+        Noa, noa, noa, noa, noa <br>
+        Noa, noa, noa vamos a bailar <br>
+        Vamos al noa, noa, noa <br>
+        Noa, noa, noa, noa, noa <br>
+        Noa, noa, noa vamos a bailar <br>
+        Este es un lugar de ambiente donde todo es diferente <br>
+        Donde siempre alegremente bailarás toda la noche ahí <br>
+        Este es un lugar de ambiente donde todo es diferente <br>
+        Donde siempre alegremente bailarás toda la noche ahí <br>
+        Esta noche te invito a bailar esta noche mi amor <br>
+        ¿Quieres bailar esta noche? <br>
+        Vamos al noa, noa, noa <br>
+        Noa, noa, noa, noa, noa <br>
+        Noa, noa, noa vamos a bailar <br>
+        Vamos al noa, noa, noa <br>
+        Noa, noa, noa, noa, noa <br>
+        Noa, noa, noa vamos a bailar <br>
+        Vamos al noa, noa, noa <br>
+        Noa, noa, noa, noa, noa <br>
+        Noa, noa, noa vamos a bailar <br>
+        Vamos al noa, noa, noa <br>
+        Noa, noa, noa, noa, noa <br>
+        Noa, noa, noa vamos a bailar <br>
+        Vamos al noa, noa, noa <br>
+        Vamos al noa a bailar <br>
+        Vamos al noa, noa, noa <br>
+        Vamos al noa a bailar <br>
+    </li>
   </ul>
 @endsection
