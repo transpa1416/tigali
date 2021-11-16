@@ -106,11 +106,8 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/documentActions">
                                         <i class="fas fa-book-reader"></i> Editar, abrir y guardar documentos
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/otherOptions">
-                                        <i class="fas fa-book-reader"></i> Otras opciones
-                                    </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/01/">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
+                                        <i class="fas fa-diagnoses"></i> Reafirma tus conocimientos
                                     </a>
                                 </div>
                             </div>
@@ -154,7 +151,7 @@
                                 Módulo 3: Trabajando con estilos
                             </button>
                         </h2>
-                        <div id="collapse3" class="collapse" aria-labelledby="writer3" data-parent="#accordionWriter">
+                        {{-- <div id="collapse3" class="collapse" aria-labelledby="writer3" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course">
@@ -171,7 +168,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Trabajando con estilos --}}
                     {{-- 4. Paginación e impresión --}}
@@ -181,7 +178,7 @@
                                 Módulo 4: Paginación e impresión
                             </button>
                         </h2>
-                        <div id="collapse4" class="collapse" aria-labelledby="writer4" data-parent="#accordionWriter">
+                        {{-- <div id="collapse4" class="collapse" aria-labelledby="writer4" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/04/formatPage">
@@ -204,7 +201,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Paginación e impresión --}}
                     {{-- 5. Imagenes y formas --}}
@@ -214,7 +211,7 @@
                                 Módulo 5: Imagenes y formas
                             </button>
                         </h2>
-                        <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
+                        {{-- <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap3">
@@ -234,7 +231,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Imagenes y formas --}}
                     {{-- 6. Herramientas de revisión y autocorrección --}}
@@ -244,7 +241,7 @@
                                 Módulo 6: Herramientas de revisión y autocorrección
                             </button>
                         </h2>
-                        <div id="collapse6" class="collapse" aria-labelledby="writer6" data-parent="#accordionWriter">
+                        {{-- <div id="collapse6" class="collapse" aria-labelledby="writer6" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
@@ -264,7 +261,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza herramientas de revisión y autocorrección --}}
                     {{-- 7.	Tablas, columnas y secciones --}}
@@ -274,7 +271,7 @@
                                 Módulo 7: Tablas, columnas y secciones
                             </button>
                         </h2>
-                        <div id="collapse7" class="collapse" aria-labelledby="writer7" data-parent="#accordionWriter">
+                        {{-- <div id="collapse7" class="collapse" aria-labelledby="writer7" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/07/columnsSections">
@@ -300,7 +297,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza tablas, columnas y secciones --}}
                     {{-- 8.	Marcos y cuadros de texto --}}
@@ -310,7 +307,7 @@
                                 Módulo 8: Marcos y cuadros de texto
                             </button>
                         </h2>
-                        <div id="collapse8" class="collapse" aria-labelledby="writer8" data-parent="#accordionWriter">
+                        {{-- <div id="collapse8" class="collapse" aria-labelledby="writer8" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
@@ -327,7 +324,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Marcos y cuadros de texto --}}
                     {{-- 9. Vinculos y referencias --}}
@@ -337,7 +334,7 @@
                                 Módulo 9: Vinculos y referencias
                             </button>
                         </h2>
-                        <div id="collapse9" class="collapse" aria-labelledby="writer9" data-parent="#accordionWriter">
+                        {{-- <div id="collapse9" class="collapse" aria-labelledby="writer9" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
@@ -357,7 +354,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Vinculos y referencias --}}
                     {{-- 10. Herramientas de correspondencia --}}
@@ -367,7 +364,7 @@
                                 Módulo 10: Herramientas de correspondencia
                             </button>
                         </h2>
-                        <div id="collapse10" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
+                        {{-- <div id="collapse10" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
@@ -387,7 +384,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Herramientas de correspondencia --}}
                     {{-- Examen final --}}
@@ -397,7 +394,7 @@
                                 Evaluaciones y resultados
                             </button>
                         </h2>
-                        <div id="collapseExam" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
+                        {{-- <div id="collapseExam" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
@@ -408,7 +405,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Examen final --}}
                 </div>

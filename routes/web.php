@@ -27,6 +27,8 @@ Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout')
 //Curso Writer
 Route::get('/course/writer', function () { return view('/coursePage/includes/writer/modules/intro'); });
 Route::get('/course/writer/module/01/environment', function () { return view('/coursePage/includes/writer/modules/01/environment'); });
+Route::get('/course/writer/module/01/settings', function () { return view('/coursePage/includes/writer/modules/01/settings'); });
+Route::get('/course/writer/module/01/documentActions', function () { return view('/coursePage/includes/writer/modules/01/documentActions'); });
 Route::get('/course/writer/module/02/formatText', function () { return view('/coursePage/includes/writer/modules/02/formatText'); });
 Route::get('/course/writer/module/02/basicSeetings', function () { return view('/coursePage/includes/writer/modules/02/basicSeetings'); });
 Route::get('/course/writer/module/02/vignette', function () { return view('/coursePage/includes/writer/modules/02/vignette'); });

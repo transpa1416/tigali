@@ -6,19 +6,19 @@
         <div id="myCarousel" class="carousel slide carousel-outer" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-slide-number="0">
-                    <img src="{{ asset('images/courses/writer/module01/topic01/cw00.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic01/cw00.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="{{ asset('images/courses/writer/module01/topic02/st00.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic02/st00.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                 </div>
                 <div class="carousel-item" data-slide-number="1">
-                    <img src="{{ asset('images/courses/writer/module01/topic01/cw01.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic01/cw01.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="{{ asset('images/courses/writer/module01/topic02/st01.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic02/st01.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                 </div>
                 <div class="carousel-item" data-slide-number="2">
-                    <img src="{{ asset('images/courses/writer/module01/topic01/cw02.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic01/cw02.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="{{ asset('images/courses/writer/module01/topic02/st02.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic02/st02.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                 </div>
                 <div class="carousel-item" data-slide-number="3">
-                    <img src="{{ asset('images/courses/writer/module01/topic01/cw03.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic01/cw03.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="{{ asset('images/courses/writer/module01/topic02/st03.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic02/st03.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                 </div>
                 <div class="carousel-item" data-slide-number="4">
-                    <img src="{{ asset('images/courses/writer/module01/topic01/cw04.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic01/cw04.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="{{ asset('images/courses/writer/module01/topic02/st04.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module01/topic02/st04.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -37,19 +37,19 @@
             <div class="carousel-item active">
                 <div class="row mx-0">
                     <div id="carousel-selector-0" class="thumb col-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
-                        <img src="{{ asset('images/courses/writer/module01/topic01/cw00.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ asset('images/courses/writer/module01/topic02/st00.png') }}" class="img-fluid" alt="...">
                     </div>
                     <div id="carousel-selector-1" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
-                        <img src="{{ asset('images/courses/writer/module01/topic01/cw01.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ asset('images/courses/writer/module01/topic02/st01.png') }}" class="img-fluid" alt="...">
                     </div>
                     <div id="carousel-selector-2" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
-                        <img src="{{ asset('images/courses/writer/module01/topic01/cw02.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ asset('images/courses/writer/module01/topic02/st02.png') }}" class="img-fluid" alt="...">
                     </div>
                     <div id="carousel-selector-3" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
-                        <img src="{{ asset('images/courses/writer/module01/topic01/cw03.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ asset('images/courses/writer/module01/topic02/st03.png') }}" class="img-fluid" alt="...">
                     </div>
                     <div id="carousel-selector-4" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">
-                        <img src="{{ asset('images/courses/writer/module01/topic01/cw04.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ asset('images/courses/writer/module01/topic02/st04.png') }}" class="img-fluid" alt="...">
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                     <img src="https://source.unsplash.com/Q1p7bh3SHj8/600x400/" class="img-fluid" alt="...">
                 </div>
                 <div id="carousel-selector-6" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="10">
-                    <img src="{{ asset('images/courses/writer/module01/components.png') }}" class="img-fluid" alt="...">
+                    <img src="{{ asset('images/courses/writer/module01/compo02nst0png') }}" class="img-fluid" alt="...">
                 </div>
                 <div class="col-2 px-1 py-2"></div>
                 <div class="col-2 px-1 py-2"></div>
