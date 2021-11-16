@@ -136,9 +136,6 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
                                         <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
-                                    </a>
                                 </div>
                             </div>
                         </div>

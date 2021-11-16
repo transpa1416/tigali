@@ -37,7 +37,7 @@
             <li class="list-group-item list-group-item-info" style="width:15%;">
                 <i class="fas fa-diagnoses"></i> Examenn Final
             </li>
-            <li id="writing"><p>Al termino del curso se realizará una evaluación final, en la cual será necesario obtener el 85% para acceder al certificado.</p></li>
+            <li id="writing"><p>Al termino del curso se realizará una evaluación final, en la cual será necesario obtener el 85% para acceder a la constancia del curso.</p></li>
         </a>
     </ul>
     <i class="fas fa-info-circle"></i> Durante la impartición del curso, día tras día se estarán habilitando, los temas, con la finalidad de crear una sana competencia, entre los etudiantes.
