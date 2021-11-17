@@ -37,6 +37,7 @@ Route::get('/course/writer/module/02/basicSeetings', function () { return view('
 Route::get('/course/writer/module/02/vignette', function () { return view('/coursePage/includes/writer/modules/02/vignette'); });
 Route::get('/course/writer/module/02/practice01', function () { return view('/coursePage/includes/writer/modules/02/practice01'); });
 /* Módulo 03 */
+Route::get('/course/writer/module/03/styles', function () { return view('/coursePage/includes/writer/modules/03/styles'); });
 /* Módulo 04 */
 Route::get('/course/writer/module/04/formatPage', function () { return view('/coursePage/includes/writer/modules/04/formatPage'); });
 Route::get('/course/writer/module/04/headerFooter', function () { return view('/coursePage/includes/writer/modules/04/headerFooter'); });

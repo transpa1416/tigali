@@ -148,24 +148,15 @@
                                 Módulo 3: Trabajando con estilos
                             </button>
                         </h2>
-                        {{-- <div id="collapse3" class="collapse" aria-labelledby="writer3" data-parent="#accordionWriter">
+                        <div id="collapse3" class="collapse" aria-labelledby="writer3" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/03/styles">
                                         <i class="fas fa-book-reader"></i> Tipos de estilos
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Crear estilos personalizados
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Trabajando con estilos --}}
                     {{-- 4. Paginación e impresión --}}
@@ -175,7 +166,7 @@
                                 Módulo 4: Paginación e impresión
                             </button>
                         </h2>
-                        {{-- <div id="collapse4" class="collapse" aria-labelledby="writer4" data-parent="#accordionWriter">
+                        <div id="collapse4" class="collapse" aria-labelledby="writer4" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/04/formatPage">
@@ -193,12 +184,9 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
                                         <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
-                                    </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Paginación e impresión --}}
                     {{-- 5. Imagenes y formas --}}
@@ -222,9 +210,6 @@
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
                                         <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
                                     </a>
                                 </div>
                             </div>
