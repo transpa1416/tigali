@@ -6,22 +6,25 @@
             <div id="myCarousel" class="carousel slide carousel-outer" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-slide-number="0">
-                        <img src="{{ asset('images/courses/writer/module05/topic01/li01.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module05/topic01/li01.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="{{ asset('images/courses/writer/module06/topic01/ort00.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module06/topic01/ort00.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                     </div>
                     <div class="carousel-item" data-slide-number="1">
-                        <img src="{{ asset('images/courses/writer/module05/topic01/li02.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module05/topic01/li02.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="{{ asset('images/courses/writer/module06/topic01/ort01.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module06/topic01/ort01.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                     </div>
                     <div class="carousel-item" data-slide-number="2">
-                        <img src="{{ asset('images/courses/writer/module05/topic01/li03.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module05/topic01/li03.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="{{ asset('images/courses/writer/module06/topic01/ort02.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module06/topic01/ort02.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                     </div>
                     <div class="carousel-item" data-slide-number="3">
-                        <img src="{{ asset('images/courses/writer/module05/topic01/li04.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module05/topic01/li04.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="{{ asset('images/courses/writer/module06/topic01/ort03.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module06/topic01/ort03.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                     </div>
                     <div class="carousel-item" data-slide-number="4">
-                        <img src="{{ asset('images/courses/writer/module05/topic01/li05.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module05/topic01/li05.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="{{ asset('images/courses/writer/module06/topic01/ort04.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module06/topic01/ort04.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                     </div>
                     <div class="carousel-item" data-slide-number="5">
-                        <img src="{{ asset('images/courses/writer/module05/topic01/li06.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module05/topic01/li06.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="{{ asset('images/courses/writer/module06/topic01/ort05.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module06/topic01/ort05.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                    </div>
+                    <div class="carousel-item" data-slide-number="6">
+                        <img src="{{ asset('images/courses/writer/module06/topic01/ort06.png') }}" class="h-100 d-inline-block w-100 p-3" alt="..." data-remote="{{ asset('images/courses/writer/module06/topic01/ort06.png') }}" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -40,22 +43,29 @@
                 <div class="carousel-item active">
                     <div class="row mx-0">
                         <div id="carousel-selector-0" class="thumb col-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
-                            <img src="{{ asset('images/courses/writer/module05/topic01/li01.png') }}" class="img-fluid" alt="...">
+                            <img src="{{ asset('images/courses/writer/module06/topic01/ort00.png') }}" class="img-fluid" alt="...">
                         </div>
                         <div id="carousel-selector-1" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
-                            <img src="{{ asset('images/courses/writer/module05/topic01/li02.png') }}" class="img-fluid" alt="...">
+                            <img src="{{ asset('images/courses/writer/module06/topic01/ort01.png') }}" class="img-fluid" alt="...">
                         </div>
                         <div id="carousel-selector-2" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
-                            <img src="{{ asset('images/courses/writer/module05/topic01/li03.png') }}" class="img-fluid" alt="...">
+                            <img src="{{ asset('images/courses/writer/module06/topic01/ort02.png') }}" class="img-fluid" alt="...">
                         </div>
                         <div id="carousel-selector-3" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
-                            <img src="{{ asset('images/courses/writer/module05/topic01/li04.png') }}" class="img-fluid" alt="...">
+                            <img src="{{ asset('images/courses/writer/module06/topic01/ort03.png') }}" class="img-fluid" alt="...">
                         </div>
                         <div id="carousel-selector-4" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">
-                            <img src="{{ asset('images/courses/writer/module05/topic01/li05.png') }}" class="img-fluid" alt="...">
+                            <img src="{{ asset('images/courses/writer/module06/topic01/ort04.png') }}" class="img-fluid" alt="...">
                         </div>
                         <div id="carousel-selector-5" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">
-                            <img src="{{ asset('images/courses/writer/module05/topic01/li06.png') }}" class="img-fluid" alt="...">
+                            <img src="{{ asset('images/courses/writer/module06/topic01/ort05.png') }}" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <div id="carousel-selector-6" class="thumb col-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">
+                            <img src="{{ asset('images/courses/writer/module06/topic01/ort06.png') }}" class="img-fluid" alt="...">
                         </div>
                     </div>
                 </div>

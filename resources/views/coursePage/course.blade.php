@@ -196,10 +196,10 @@
                                 Módulo 5: Imagenes y formas
                             </button>
                         </h2>
-                        {{-- <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
+                        <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap3">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/05/insertImage">
                                         <i class="fas fa-film"></i> Insertar y ajustar una imagen
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/05/imageLink">
@@ -208,12 +208,12 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/05/applyEffect">
                                         <i class="fas fa-book-reader"></i> Aplicar efectos y recortar
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
+                                    {{-- <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
                                         <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Imagenes y formas --}}
                     {{-- 6. Herramientas de revisión y autocorrección --}}
@@ -223,27 +223,21 @@
                                 Módulo 6: Herramientas de revisión y autocorrección
                             </button>
                         </h2>
-                        {{-- <div id="collapse6" class="collapse" aria-labelledby="writer6" data-parent="#accordionWriter">
+                        <div id="collapse6" class="collapse" aria-labelledby="writer6" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-book-reader"></i> Corrección ortográfica
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/06/spelingCorrection">
+                                        <i class="fas fa-book-reader"></i> Corrección ortográfica y gramatical
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-book-reader"></i> Aplicar gramatical
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-book-reader"></i> División de palabras y sinónimos
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
+                                    {{-- <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
                                         <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
+                                        <i class="fas fa-diagnoses"></i> Evaluación parcial --}}
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza herramientas de revisión y autocorrección --}}
                     {{-- 7.	Tablas, columnas y secciones --}}

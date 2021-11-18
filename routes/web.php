@@ -44,6 +44,7 @@ Route::get('/course/writer/module/04/headerFooter', function () { return view('/
 Route::get('/course/writer/module/04/printerOptions', function () { return view('/coursePage/includes/writer/modules/04/printerOptions'); });
 Route::get('/course/writer/module/04/exportToPDF', function () { return view('/coursePage/includes/writer/modules/04/exportToPDF'); });
 /* Módulo 05 */
+Route::get('/course/writer/module/05/insertImage', function () { return view('/coursePage/includes/writer/modules/05/insertImage'); });
 Route::get('/course/writer/module/05/imageLink', function () { return view('/coursePage/includes/writer/modules/05/imageLink'); });
 Route::get('/course/writer/module/05/applyEffect', function () { return view('/coursePage/includes/writer/modules/05/applyEffect'); });
 /* Módulo 06 */
