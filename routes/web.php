@@ -55,6 +55,7 @@ Route::get('/course/writer/module/06/synonymous', function () { return view('/co
 Route::get('/course/writer/module/07/columnsSections', function () { return view('/coursePage/includes/writer/modules/07/columnsSections'); });
 Route::get('/course/writer/module/07/createTable', function () { return view('/coursePage/includes/writer/modules/07/createTable'); });
 /* Módulo 08 */
+Route::get('/course/writer/module/08/squareText', function () { return view('/coursePage/includes/writer/modules/08/squareText'); });
 /* Módulo 09 */
 /* Módulo 10 */
 

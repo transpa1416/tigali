@@ -247,7 +247,7 @@
                                 Módulo 7: Tablas, columnas y secciones
                             </button>
                         </h2>
-                        {{-- <div id="collapse7" class="collapse" aria-labelledby="writer7" data-parent="#accordionWriter">
+                        <div id="collapse7" class="collapse" aria-labelledby="writer7" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/07/columnsSections">
@@ -256,24 +256,9 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/07/createTable">
                                         <i class="fas fa-film"></i> Creación de tablas
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Otras propiedades de tablas
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Ordenar los datos en las tablas
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Convertir texto en tabla y tabla en texto
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
-                                    </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza tablas, columnas y secciones --}}
                     {{-- 8.	Marcos y cuadros de texto --}}
@@ -283,24 +268,15 @@
                                 Módulo 8: Marcos y cuadros de texto
                             </button>
                         </h2>
-                        {{-- <div id="collapse8" class="collapse" aria-labelledby="writer8" data-parent="#accordionWriter">
+                        <div id="collapse8" class="collapse" aria-labelledby="writer8" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/08/squareText">
                                         <i class="fas fa-book-reader"></i> Insertar y editar marcos
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Insertar y editar cuadros de texto
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Marcos y cuadros de texto --}}
                     {{-- 9. Vinculos y referencias --}}
