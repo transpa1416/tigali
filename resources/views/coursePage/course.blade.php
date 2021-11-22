@@ -286,27 +286,18 @@
                                 Módulo 9: Vinculos y referencias
                             </button>
                         </h2>
-                        {{-- <div id="collapse9" class="collapse" aria-labelledby="writer9" data-parent="#accordionWriter">
+                        <div id="collapse9" class="collapse" aria-labelledby="writer9" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/09/hyperlink">
                                         <i class="fas fa-book-reader"></i> Crear hiperenlaces
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/09/crossReference">
                                         <i class="fas fa-book-reader"></i> Referencias cruzadas
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Notas al pie y al final del documento
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Vinculos y referencias --}}
                     {{-- 10. Herramientas de correspondencia --}}

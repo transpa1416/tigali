@@ -57,6 +57,8 @@ Route::get('/course/writer/module/07/createTable', function () { return view('/c
 /* Módulo 08 */
 Route::get('/course/writer/module/08/squareText', function () { return view('/coursePage/includes/writer/modules/08/squareText'); });
 /* Módulo 09 */
+Route::get('/course/writer/module/09/hyperlink', function () { return view('/coursePage/includes/writer/modules/09/hyperlink'); });
+Route::get('/course/writer/module/09/crossReference', function () { return view('/coursePage/includes/writer/modules/09/crossReference'); });
 /* Módulo 10 */
 Route::get('/course/writer/module/10/tags', function () { return view('/coursePage/includes/writer/modules/10/tags'); });
 Route::get('/course/writer/module/10/matchingTool', function () { return view('/coursePage/includes/writer/modules/10/matchingTool'); });
