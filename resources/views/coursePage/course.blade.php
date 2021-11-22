@@ -316,27 +316,18 @@
                                 Módulo 10: Herramientas de correspondencia
                             </button>
                         </h2>
-                        {{-- <div id="collapse10" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
+                        <div id="collapse10" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/10/tags">
                                         <i class="fas fa-book-reader"></i> Asistente de etiquetas y tarjetas de visita
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/10/matchingTool">
                                         <i class="fas fa-book-reader"></i> Asistente para combinar correspondencia
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/cap1">
-                                        <i class="fas fa-book-reader"></i> Impresión en serie
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-diagnoses"></i> Evaluación parcial
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Herramientas de correspondencia --}}
                     {{-- Examen final --}}

@@ -58,6 +58,8 @@ Route::get('/course/writer/module/07/createTable', function () { return view('/c
 Route::get('/course/writer/module/08/squareText', function () { return view('/coursePage/includes/writer/modules/08/squareText'); });
 /* Módulo 09 */
 /* Módulo 10 */
+Route::get('/course/writer/module/10/tags', function () { return view('/coursePage/includes/writer/modules/10/tags'); });
+Route::get('/course/writer/module/10/matchingTool', function () { return view('/coursePage/includes/writer/modules/10/matchingTool'); });
 
 //Curso Calc
 Route::get('/course/calc', function () { return view('/coursePage/includes/writer/introduccion/intro'); });
