@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Hash;
 use Session;
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 
 class CustomAuthController extends Controller
@@ -27,10 +28,10 @@ class CustomAuthController extends Controller
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
             return redirect()->intended('dashboard')
-                        ->withSuccess('Signed in');
+                        ->withSuccess('Ingreso correcto');
         }
 
-        return redirect("login")->withSuccess('Login details are not valid');
+        return redirect("login")->withSuccess('Los datos de ingreso no son validos');
     }
 
 
@@ -57,6 +58,38 @@ class CustomAuthController extends Controller
         return redirect("dashboard")->withSuccess('Bienvenido');
     }
 
+    public function recoveryPassword()
+    {
+        return view('homePage.auth.recoveryPassword');
+    }
+
+    public function changePassword(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|email',
+            'password' => 'required|min:6|confirmed',
+            'password_confirmation' => 'required|min:6'
+        ]);
+
+        $credentials = User::where('email', '=', $request->email)->first();
+
+            if ($credentials == NULL){
+                return redirect("recovery")->withSuccess('Los datos de ingreso no son validos');
+            } else {
+                $credentials = $request->only('email', 'password');
+                DB::connection('mysql')->table('users')
+                    ->where('email', '=', $credentials['email'])
+                    ->update(['password' => Hash::make($credentials['password'])]);
+
+
+                if (Auth::attempt($credentials)) {
+                    return redirect()->intended('dashboard')
+                                ->withSuccess('Ingreso correcto');
+                }
+            }
+        return redirect("recovery")->withSuccess('Los datos de ingreso no son validos');
+    }
+
 
     public function create(array $data)
     {
@@ -67,7 +100,6 @@ class CustomAuthController extends Controller
         'password' => Hash::make($data['password'])
       ]);
     }
-
 
     public function dashboard()
     {

@@ -6,9 +6,9 @@
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="card">
-                    <h3 class="card-header text-center">Login</h3>
+                    <h3 class="card-header text-center">Recupera cuenta</h3>
                     <div class="card-body">
-                        <form method="POST" action="{{ route('login.custom') }}">
+                        <form method="POST" action="{{ route('recovery.password') }}">
                             @csrf
                             <div class="form-group mb-3">
                                 <input type="text" placeholder="Email" id="email" class="form-control" name="email" required
@@ -19,9 +19,18 @@
                             </div>
 
                             <div class="form-group mb-3">
-                                <input type="password" placeholder="Contraseña" id="password" class="form-control" name="password" required>
+                                <input type="password" placeholder="Contraseña" id="password" class="form-control"
+                                    name="password" required>
                                 @if ($errors->has('password'))
                                 <span class="text-danger">{{ $errors->first('password') }}</span>
+                                @endif
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <input type="password" placeholder="Repetir Contraseña" id="password_confirmation" class="form-control"
+                                    name="password_confirmation" required>
+                                @if ($errors->has('password_confirmation'))
+                                <span class="text-danger">{{ $errors->first('password_confirmation') }}</span>
                                 @endif
                             </div>
                             <div class="d-grid mx-auto">
@@ -36,7 +45,7 @@
                                 </div>
                                 <div class="checkbox">
                                     <label>
-                                        ¿Olvidaste la contraseña? <a href="/recovery"> Recupera tu cuenta </a>
+                                        Si ya tienes cuenta<a href="/login"> Inicia sesión </a>
                                     </label>
                                 </div>
                             </div>

@@ -59,6 +59,11 @@
                                 <label>
                                     Si ya tienes cuenta<a href="/login"> Inicia sesión </a>
                                 </label>
+                            <div class="checkbox">
+                                <label>
+                                    ¿Olvidaste la contraseña? <a href="/recovery"> Recupera tu cuenta </a>
+                                </label>
+                            </div>
                             </div>
                         </form>
 
