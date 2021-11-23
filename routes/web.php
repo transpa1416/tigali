@@ -28,6 +28,9 @@ Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout')
 Route::get('/course/writer', function () { return view('/coursePage/includes/writer/modules/intro'); });
 /* sesiones Zoom */
 Route::get('/course/writer/module/zoom/17nov', function () { return view('/coursePage/includes/writer/modules/zoom/17nov'); });
+Route::get('/course/writer/module/zoom/18nov', function () { return view('/coursePage/includes/writer/modules/zoom/18nov'); });
+Route::get('/course/writer/module/zoom/19nov', function () { return view('/coursePage/includes/writer/modules/zoom/19nov'); });
+Route::get('/course/writer/module/zoom/22nov', function () { return view('/coursePage/includes/writer/modules/zoom/22nov'); });
 /* Módulo 01 */
 Route::get('/course/writer/module/01/environment', function () { return view('/coursePage/includes/writer/modules/01/environment'); });
 Route::get('/course/writer/module/01/settings', function () { return view('/coursePage/includes/writer/modules/01/settings'); });

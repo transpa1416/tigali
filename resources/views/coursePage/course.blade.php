@@ -55,7 +55,7 @@
                     <div class="card">
                         <h2 class="card-header" id="zoom">
                             <button class="btn text-left" data-toggle="collapse" data-target="#collapseZoom" aria-expanded="true" aria-controls="collapseZoom">
-                                Sesiones Zoom (Proximamente...)
+                                Sesiones Zoom
                             </button>
                         </h2>
                         <div id="collapseZoom" class="collapse" aria-labelledby="zoom" data-parent="#accordionWriter">
@@ -63,6 +63,15 @@
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/zoom/17nov">
                                         <i class="fas fa-video"></i> Sesión del 17 de Noviembre del 2021
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/zoom/18nov">
+                                        <i class="fas fa-video"></i> Sesión del 18 de Noviembre del 2021
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/zoom/19nov">
+                                        <i class="fas fa-video"></i> Sesión del 19 de Noviembre del 2021
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/zoom/22nov">
+                                        <i class="fas fa-video"></i> Sesión del 22 de Noviembre del 2021
                                     </a>
                                 </div>
                             </div>
