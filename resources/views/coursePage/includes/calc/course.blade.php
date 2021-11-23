@@ -49,7 +49,7 @@
             <div id="sidebar-wrapper" class="scrollbar style-1">
                 <div class="accordion" id="accordionWriter">
                     <div class="card">
-                        <div class="card-header">Writer</div>
+                        <div class="card-header">Calc</div>
                     </div>
                     {{-- Sesiones Zoom --}}
                     <div class="card">
