@@ -26,7 +26,7 @@ class CustomAuthController extends Controller
 
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('course/writer')
+            return redirect()->intended('dashboard')
                         ->withSuccess('Signed in');
         }
 
@@ -72,7 +72,7 @@ class CustomAuthController extends Controller
     public function dashboard()
     {
         if(Auth::check()){
-            return view('dashboard');
+            return view('dashboardPage/dashboard');
         }
 
         return redirect("login")->withSuccess('Esta página es privada');

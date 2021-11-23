@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-md fixed-top bg-secondary" navbar-scroll="true">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="/">
+                    <a class="nav-link text-light" href="/dashboard">
                         <i class="fas fa-home"></i> T.I. Gali
                     </a>
                 </li>
