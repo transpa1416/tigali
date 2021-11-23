@@ -64,5 +64,11 @@ Route::get('/course/writer/module/10/tags', function () { return view('/coursePa
 Route::get('/course/writer/module/10/matchingTool', function () { return view('/coursePage/includes/writer/modules/10/matchingTool'); });
 
 //Curso Calc
-Route::get('/course/calc', function () { return view('/coursePage/includes/writer/introduccion/intro'); });
+Route::get('/course/calc', function () { return view('/coursePage/includes/calc/modules/intro'); });
+/* Módulo 01 */
+Route::get('/course/calc/module/01/environment', function () { return view('/coursePage/includes/calc/modules/01/environment'); });
+Route::get('/course/calc/module/01/introduction', function () { return view('/coursePage/includes/calc/modules/01/introduction'); });
+/* Módulo 02 */
+Route::get('/course/calc/module/02/basicFunctions', function () { return view('/coursePage/includes/calc/modules/02/basicFunctions'); });
+Route::get('/course/calc/module/02/practice', function () { return view('/coursePage/includes/calc/modules/02/practice'); });
 
