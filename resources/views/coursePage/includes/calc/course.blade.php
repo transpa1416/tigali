@@ -184,7 +184,7 @@
                                 Módulo 5: Imagenes y formas
                             </button>
                         </h2>
-                        <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
+                        {{-- <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/insertImage">
@@ -196,12 +196,9 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/applyEffect">
                                         <i class="fas fa-book-reader"></i> Aplicar efectos y recortar
                                     </a>
-                                    {{-- <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc">
-                                        <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
-                                    </a> --}}
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     {{-- Finaliza Imagenes y formas --}}
                     {{-- 6. Herramientas de revisión y autocorrección --}}
