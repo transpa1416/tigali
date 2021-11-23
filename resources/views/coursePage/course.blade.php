@@ -58,15 +58,15 @@
                                 Sesiones Zoom (Proximamente...)
                             </button>
                         </h2>
-                        {{-- <div id="collapseZoom" class="collapse" aria-labelledby="zoom" data-parent="#accordionWriter">
+                        <div id="collapseZoom" class="collapse" aria-labelledby="zoom" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-video"></i> Primera sesión
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/module/zoom/17nov">
+                                        <i class="fas fa-video"></i> Sesión del 17 de Noviembre del 2021
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Sesiones Zoom --}}
                     {{-- 0. Elemento: Presentacion --}}

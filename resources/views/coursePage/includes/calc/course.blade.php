@@ -112,14 +112,14 @@
                     <div class="card">
                         <h2 class="card-header" id="writer2">
                             <button class="btn text-left" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                Módulo 2: Funciones básicas
+                                Módulo 2: Edición de filas, columnas y hojas
                             </button>
                         </h2>
                         <div id="collapse2" class="collapse" aria-labelledby="writer2" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/02/basicFunctions">
-                                        <i class="fas fa-book-reader"></i> Funciones
+                                        <i class="fas fa-book-reader"></i> Edición y otras características
                                     </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/02/practice">
                                         <i class="fas fa-film"></i> Ejercicio factura
@@ -133,7 +133,7 @@
                     <div class="card">
                         <h2 class="card-header" id="writer3">
                             <button class="btn text-left" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                Módulo 3: Edición de filas, columnas y hojas
+                                Módulo 3: Funciones básicas
                             </button>
                         </h2>
                         {{-- <div id="collapse3" class="collapse" aria-labelledby="writer3" data-parent="#accordionWriter">
