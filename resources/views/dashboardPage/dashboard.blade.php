@@ -18,7 +18,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle  text-light" id="navUser" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-user-cog"></i> Nombre Usuario
+                            <i class="fas fa-user-cog"></i> @if(auth()->user()) {{ Auth::user()->name }} @else Nombre Usuario @endif
                         </a>
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navUser">
                             <a class="dropdown-item" href="/listCourses">

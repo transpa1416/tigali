@@ -27,19 +27,27 @@
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle  text-light" id="navUser" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-user-cog"></i> Nombre Usuario
+                            <i class="fas fa-user-cog"></i> @if(auth()->user()) {{ Auth::user()->name }} @else Nombre Usuario @endif
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navUser">
-                            <a class="dropdown-item" href="/listCourses">
-                                <i class="fas fa-chalkboard-teacher"></i> Mi aprendizaje
-                            </a>
-                            <a class="dropdown-item" href="/config">
-                                <i class="fas fa-cog"></i> Configuración de la cuenta
-                            </a>
-                            <a class="dropdown-item" href="/">
-                                <i class="fas fa-user-times"></i> Cerrar sesión
-                            </a>
-                        </div>
+                        @if(auth()->user())
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navUser">
+                                <a class="dropdown-item" href="/dashboard">
+                                    <i class="fas fa-chalkboard-teacher"></i> Mi aprendizaje
+                                </a>
+                                <a class="dropdown-item" href="/config">
+                                    <i class="fas fa-cog"></i> Configuración de la cuenta
+                                </a>
+                                <a class="dropdown-item" href="/signout">
+                                    <i class="fas fa-user-times"></i> Cerrar sesión
+                                </a>
+                            </div>
+                        @else
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navUser">
+                                <a class="dropdown-item" href="/login">
+                                    <i class="fas fa-chalkboard-teacher"></i> Iniciar sesión
+                                </a>
+                            </div>
+                        @endif
                     </li>
                 </ul>
             </div>
