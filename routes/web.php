@@ -22,7 +22,7 @@ Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::get('recovery', [CustomAuthController::class, 'recoveryPassword'])->name('recovery');
 Route::post('recovery-password', [CustomAuthController::class, 'changePassword'])->name('recovery.password');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
-Route::get('register', [CustomAuthController::class, 'registration'])->name('register-user');
+Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 

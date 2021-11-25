@@ -31,7 +31,7 @@
                             <div class="form-group mb-3">
                                 <div class="checkbox">
                                     <label>
-                                        ¿No tienes una cuenta? <a href="/register"> Regístrate </a>
+                                        ¿No tienes una cuenta? <a href="/registration"> Regístrate </a>
                                     </label>
                                 </div>
                                 <div class="checkbox">
