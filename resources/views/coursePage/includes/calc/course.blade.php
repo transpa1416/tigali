@@ -55,18 +55,18 @@
                     <div class="card">
                         <h2 class="card-header" id="zoom">
                             <button class="btn text-left" data-toggle="collapse" data-target="#collapseZoom" aria-expanded="true" aria-controls="collapseZoom">
-                                Sesiones Zoom (Proximamente...)
+                                Sesiones Zoom
                             </button>
                         </h2>
-                        {{-- <div id="collapseZoom" class="collapse" aria-labelledby="zoom" data-parent="#accordionWriter">
+                        <div id="collapseZoom" class="collapse" aria-labelledby="zoom" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc">
-                                        <i class="fas fa-video"></i> Primera sesión
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/zoom/24nov">
+                                        <i class="fas fa-video"></i> Sesión del 24 de Noviembre del 2021
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Sesiones Zoom --}}
                     {{-- 0. Elemento: Presentacion --}}
@@ -136,15 +136,18 @@
                                 Módulo 3: Funciones básicas
                             </button>
                         </h2>
-                        {{-- <div id="collapse3" class="collapse" aria-labelledby="writer3" data-parent="#accordionWriter">
+                        <div id="collapse3" class="collapse" aria-labelledby="writer3" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/03/styles">
-                                        <i class="fas fa-book-reader"></i> Tipos de estilos
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/03/basicFunctions">
+                                        <i class="fas fa-book-reader"></i> Funciones
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/03/practice">
+                                        <i class="fas fa-film"></i> Ejercicio factura
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Trabajando con estilos --}}
                     {{-- 4. Paginación e impresión --}}
@@ -154,27 +157,21 @@
                                 Módulo 4: Paginación e impresión
                             </button>
                         </h2>
-                        {{-- <div id="collapse4" class="collapse" aria-labelledby="writer4" data-parent="#accordionWriter">
+                        <div id="collapse4" class="collapse" aria-labelledby="writer4" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/04/page">
+                                        <i class="fas fa-book-reader"></i> Páginación
+                                    </a>
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/04/formatPage">
                                         <i class="fas fa-book-reader"></i> Formato de página
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/04/headerFooter">
-                                        <i class="fas fa-book-reader"></i> Encabezados y pies de página
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/04/printerOptions">
-                                        <i class="fas fa-book-reader"></i> Opciones de impresión
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/04/exportToPDF">
-                                        <i class="fas fa-book-reader"></i> Exportar a PDF
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc">
-                                        <i class="fas fa-edit"></i> Prácticas "Reafirma tu conocimiento"
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/04/practice">
+                                        <i class="fas fa-film"></i> Ejercicio factura
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Paginación e impresión --}}
                     {{-- 5. Imagenes y formas --}}
@@ -184,21 +181,24 @@
                                 Módulo 5: Imagenes y formas
                             </button>
                         </h2>
-                        {{-- <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
+                        <div id="collapse5" class="collapse" aria-labelledby="writer5" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/insertImage">
-                                        <i class="fas fa-film"></i> Insertar y ajustar una imagen
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/image">
+                                        <i class="fas fa-book-reader"></i> Imagenes y formas
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/imageLink">
-                                        <i class="fas fa-book-reader"></i> Anclaje y ajuste de imagenes
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/formatImage">
+                                        <i class="fas fa-book-reader"></i> Aplicar formato a las imágenes
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/applyEffect">
-                                        <i class="fas fa-book-reader"></i> Aplicar efectos y recortar
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/barImage">
+                                        <i class="fas fa-book-reader"></i> Barra de imagen
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/05/practice">
+                                        <i class="fas fa-film"></i> Ejercicio factura
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Imagenes y formas --}}
                     {{-- 6. Herramientas de revisión y autocorrección --}}
@@ -212,7 +212,10 @@
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/06/spelingCorrection">
-                                        <i class="fas fa-book-reader"></i> Corrección ortográfica y gramatical
+                                        <i class="fas fa-book-reader"></i> Autocorrección y ortografía
+                                    </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/06/practice">
+                                        <i class="fas fa-film"></i> Ejercicio factura
                                     </a>
                                 </div>
                             </div>

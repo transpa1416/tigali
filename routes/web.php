@@ -72,10 +72,26 @@ Route::get('/course/writer/module/10/matchingTool', function () { return view('/
 
 //Curso Calc
 Route::get('/course/calc', function () { return view('/coursePage/includes/calc/modules/intro'); });
+/*Sesiones Zoom*/
+Route::get('/course/calc/module/zoom/24nov', function () { return view('/coursePage/includes/calc/modules/zoom/24nov'); });
 /* Módulo 01 */
 Route::get('/course/calc/module/01/environment', function () { return view('/coursePage/includes/calc/modules/01/environment'); });
 Route::get('/course/calc/module/01/introduction', function () { return view('/coursePage/includes/calc/modules/01/introduction'); });
 /* Módulo 02 */
-Route::get('/course/calc/module/02/basicFunctions', function () { return view('/coursePage/includes/calc/modules/02/basicFunctions'); });
 Route::get('/course/calc/module/02/practice', function () { return view('/coursePage/includes/calc/modules/02/practice'); });
-
+Route::get('/course/calc/module/02/basicFunctions', function () { return view('/coursePage/includes/calc/modules/02/basicFunctions'); });
+/* Módulo 03 */
+Route::get('/course/calc/module/03/practice', function () { return view('/coursePage/includes/calc/modules/03/practice'); });
+Route::get('/course/calc/module/03/basicFunctions', function () { return view('/coursePage/includes/calc/modules/03/basicFunctions'); });
+/* Módulo 04 */
+Route::get('/course/calc/module/04/practice', function () { return view('/coursePage/includes/calc/modules/04/practice'); });
+Route::get('/course/calc/module/04/page', function () { return view('/coursePage/includes/calc/modules/04/page'); });
+Route::get('/course/calc/module/04/formatPage', function () { return view('/coursePage/includes/calc/modules/04/formatPage'); });
+/* Módulo 05 */
+Route::get('/course/calc/module/05/practice', function () { return view('/coursePage/includes/calc/modules/05/practice'); });
+Route::get('/course/calc/module/05/image', function () { return view('/coursePage/includes/calc/modules/05/image'); });
+Route::get('/course/calc/module/05/formatImage', function () { return view('/coursePage/includes/calc/modules/05/formatImage'); });
+Route::get('/course/calc/module/05/barImage', function () { return view('/coursePage/includes/calc/modules/05/barImage'); });
+/* Módulo 06 */
+Route::get('/course/calc/module/06/spelingCorrection', function () { return view('/coursePage/includes/calc/modules/06/spelingCorrection'); });
+Route::get('/course/calc/module/06/practice', function () { return view('/coursePage/includes/calc/modules/06/practice'); });
