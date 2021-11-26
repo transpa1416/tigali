@@ -74,6 +74,7 @@ Route::get('/course/writer/module/10/matchingTool', function () { return view('/
 Route::get('/course/calc', function () { return view('/coursePage/includes/calc/modules/intro'); });
 /*Sesiones Zoom*/
 Route::get('/course/calc/module/zoom/24nov', function () { return view('/coursePage/includes/calc/modules/zoom/24nov'); });
+Route::get('/course/calc/module/zoom/25nov', function () { return view('/coursePage/includes/calc/modules/zoom/25nov'); });
 /* Módulo 01 */
 Route::get('/course/calc/module/01/environment', function () { return view('/coursePage/includes/calc/modules/01/environment'); });
 Route::get('/course/calc/module/01/introduction', function () { return view('/coursePage/includes/calc/modules/01/introduction'); });
@@ -95,3 +96,11 @@ Route::get('/course/calc/module/05/barImage', function () { return view('/course
 /* Módulo 06 */
 Route::get('/course/calc/module/06/spelingCorrection', function () { return view('/coursePage/includes/calc/modules/06/spelingCorrection'); });
 Route::get('/course/calc/module/06/practice', function () { return view('/coursePage/includes/calc/modules/06/practice'); });
+/* Módulo 07 */
+Route::get('/course/calc/module/07/graphs', function () { return view('/coursePage/includes/calc/modules/07/graphs'); });
+Route::get('/course/calc/module/07/practice', function () { return view('/coursePage/includes/calc/modules/07/practice'); });
+/* Módulo 08 */
+Route::get('/course/calc/module/08/filter', function () { return view('/coursePage/includes/calc/modules/08/filter'); });
+/* Módulo 09 */
+/* Módulo 10 */
+/* Módulo 11 */

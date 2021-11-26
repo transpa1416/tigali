@@ -72,6 +72,9 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/zoom/24nov">
                                         <i class="fas fa-video"></i> Sesión del 24 de Noviembre del 2021
                                     </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/zoom/25nov">
+                                        <i class="fas fa-video"></i> Sesión del 25 de Noviembre del 2021
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +219,7 @@
                                 Módulo 6: Herramientas de revisión y autocorrección
                             </button>
                         </h2>
-                        {{-- <div id="collapse6" class="collapse" aria-labelledby="writer6" data-parent="#accordionWriter">
+                        <div id="collapse6" class="collapse" aria-labelledby="writer6" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/06/spelingCorrection">
@@ -227,7 +230,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza herramientas de revisión y autocorrección --}}
                     {{-- 7.	Tablas, columnas y secciones --}}
@@ -237,18 +240,18 @@
                                 Módulo 7: Gráficos
                             </button>
                         </h2>
-                        {{-- <div id="collapse7" class="collapse" aria-labelledby="writer7" data-parent="#accordionWriter">
+                        <div id="collapse7" class="collapse" aria-labelledby="writer7" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/07/columnsSections">
-                                        <i class="fas fa-film"></i> Columnas, saltos y secciones
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/07/graphs">
+                                        <i class="fas fa-book-reader"></i> Tipos de gráficos
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/07/createTable">
-                                        <i class="fas fa-film"></i> Creación de tablas
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/07/practice">
+                                        <i class="fas fa-film"></i> Ejercicio factura
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza tablas, columnas y secciones --}}
                     {{-- 8.	Marcos y cuadros de texto --}}
@@ -258,15 +261,15 @@
                                 Módulo 8: Ordenación y filtrado
                             </button>
                         </h2>
-                        {{-- <div id="collapse8" class="collapse" aria-labelledby="writer8" data-parent="#accordionWriter">
+                        <div id="collapse8" class="collapse" aria-labelledby="writer8" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/08/squareText">
-                                        <i class="fas fa-book-reader"></i> Insertar y editar marcos
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/08/filter">
+                                        <i class="fas fa-book-reader"></i> Ordenado y filtrado de información
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Marcos y cuadros de texto --}}
                     {{-- 9. Vinculos y referencias --}}
