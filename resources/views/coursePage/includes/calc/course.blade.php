@@ -75,6 +75,9 @@
                                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/zoom/25nov">
                                         <i class="fas fa-video"></i> Sesión del 25 de Noviembre del 2021
                                     </a>
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/zoom/26nov">
+                                        <i class="fas fa-video"></i> Sesión del 26 de Noviembre del 2021
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -279,18 +282,18 @@
                                 Módulo 9: Funciones avanzadas
                             </button>
                         </h2>
-                        {{-- <div id="collapse9" class="collapse" aria-labelledby="writer9" data-parent="#accordionWriter">
+                        <div id="collapse9" class="collapse" aria-labelledby="writer9" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/09/hyperlink">
-                                        <i class="fas fa-book-reader"></i> Crear hiperenlaces
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/09/advancedFunctions">
+                                        <i class="fas fa-book-reader"></i> Funciones avanzadas
                                     </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/09/crossReference">
-                                        <i class="fas fa-book-reader"></i> Referencias cruzadas
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/09/logic">
+                                        <i class="fas fa-book-reader"></i> Expresiones lógicas
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Vinculos y referencias --}}
                     {{-- 10. Herramientas de correspondencia --}}
@@ -300,39 +303,33 @@
                                 Módulo 10: Formatos condicionales
                             </button>
                         </h2>
-                        {{-- <div id="collapse10" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
+                        <div id="collapse10" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/10/tags">
-                                        <i class="fas fa-book-reader"></i> Asistente de etiquetas y tarjetas de visita
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/10/matchingTool">
-                                        <i class="fas fa-book-reader"></i> Asistente para combinar correspondencia
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/10/conditional">
+                                        <i class="fas fa-book-reader"></i> Formatos condicionales
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Herramientas de correspondencia --}}
                     {{-- 10. Herramientas de correspondencia --}}
                     <div class="card">
                         <h2 class="card-header" id="writer10">
-                            <button class="btn text-left" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                            <button class="btn text-left" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
                                 Módulo 11: Tablas dinámicas
                             </button>
                         </h2>
-                        {{-- <div id="collapse10" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
+                        <div id="collapse11" class="collapse" aria-labelledby="writer11" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/10/tags">
-                                        <i class="fas fa-book-reader"></i> Asistente de etiquetas y tarjetas de visita
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/10/matchingTool">
-                                        <i class="fas fa-book-reader"></i> Asistente para combinar correspondencia
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/calc/module/11/dinamic">
+                                        <i class="fas fa-book-reader"></i> Tablas dinámicas
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Herramientas de correspondencia --}}
                     {{-- Examen final --}}
