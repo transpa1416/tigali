@@ -323,7 +323,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Para corregir ortográfica y gramática durante la escritura</p>
+                            <p class="text-primary"> &nbsp; A) Alfanumérico</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -333,7 +333,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Para omitir los errores ortográficos en una lectura</p>
+                            <p class="text-primary"> &nbsp; B) De autoforma</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -343,7 +343,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Para cambiar las letras que están en mayúsculas a minúsculas</p>
+                            <p class="text-primary"> &nbsp; C) Sintáctico</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -353,7 +353,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Para la gramática alfanumérica</p>
+                            <p class="text-primary"> &nbsp; D) Gramatical</p>
                         </div>
                     </div>
                     <br/>

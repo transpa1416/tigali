@@ -11,7 +11,7 @@
                     {{-- Pregunta 1 --}}
                     <div class="card">
                         <div class="card-header">
-                            1.- LibreOffice Writer es compatible con una amplia gama de formatos de documentos como Microsoft® Word
+                            1.- ¿Cómo se le llama a los documentos en Libre Office Calc?
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -22,7 +22,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) .doc .docx</p>
+                            <p class="text-primary"> &nbsp; A) Hojas de calculo</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -33,7 +33,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) .xls .xls</p>
+                            <p class="text-primary"> &nbsp; B) Libros de datos</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -44,7 +44,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) .ppt .pptx</p>
+                            <p class="text-primary"> &nbsp; C) Documentos de Calc</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -55,14 +55,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) .doc .xls</p>
+                            <p class="text-primary"> &nbsp; D) Calc </p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 2 --}}
                     <div class="card">
                         <div class="card-header">
-                            2.- Para cambiar el tamaño de la Imagen…
+                            2.- ¿Cuál es la combinación de teclas para abrir una hoja existente?
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -73,7 +73,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Hacemos clic sobre la imagen se activa el panel donde podemos hacer la modificación</p>
+                            <p class="text-primary"> &nbsp; A) Ctrl + B</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -84,7 +84,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Seleccionamos la imagen y presionamos la tecla P (Activación de diseño)</p>
+                            <p class="text-primary"> &nbsp; B) Ctrl + G</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -95,7 +95,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Clic en insertar imagen, seleccionamos y aceptamos, observaos que la imagen cambia</p>
+                            <p class="text-primary"> &nbsp; C) Ctrl + X</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -106,14 +106,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Insertar, editar y activar</p>
+                            <p class="text-primary"> &nbsp; D) Ctrl + A</p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 3 --}}
                     <div class="card">
                         <div class="card-header">
-                            3.- Los encabezados y los pies de página se encuentran en
+                            3.- Para crear una lista personalizada accedemos al menú
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -124,7 +124,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) La Barra de Tareas del escritorio</p>
+                            <p class="text-primary"> &nbsp; A) Archivo / Opciones / Calc /</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -135,7 +135,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Los accesos de copiar y pegar</p>
+                            <p class="text-primary"> &nbsp; B) Herramientas / Diseño / Crear /</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -146,7 +146,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Los márgenes superior e inferior de la pagina</p>
+                            <p class="text-primary"> &nbsp; C) Herramientas / Opciones / LibreOffice / Calc / Lista de ordenamiento</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -157,14 +157,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Los márgenes laterales del documento de la pagina editar</p>
+                            <p class="text-primary"> &nbsp; D) Herramientas / Opciones / LibreOffice / Calc / Lista de ordenadores</p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 4 --}}
                     <div class="card">
                         <div class="card-header">
-                            4.- ¿Qué es un marco de texto?
+                            4.- ¿Cómo ocultar filas?
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -175,7 +175,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Una tabla de columnas y filas</p>
+                            <p class="text-primary"> &nbsp; A) Selecciona desde el menú Formato / Filas / Ocultar para las filas</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -186,7 +186,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Un contenedor para texto</p>
+                            <p class="text-primary"> &nbsp; B) Seleccionar desde el menú Formato / Ocultar / Ocultar fila </p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -197,7 +197,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Un editor de texto </p>
+                            <p class="text-primary"> &nbsp; C) Ctrl + F</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -208,14 +208,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Un marco que utilizan las imágenes</p>
+                            <p class="text-primary"> &nbsp; D) Archivo /Formato / Ocultar / Filas columnas / </p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 5 --}}
                     <div class="card">
                         <div class="card-header">
-                            5.- Combinación de teclas para imprimir un documento
+                            5.- En la pestaña fondo ¿Cómo se le llama al cuadro de colores?
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -226,7 +226,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Ctrl + P  + B</p>
+                            <p class="text-primary"> &nbsp; A) Lista de colores</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -237,7 +237,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Ctrl + I</p>
+                            <p class="text-primary"> &nbsp; B) Paleta de colores</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -248,7 +248,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Ctrl + P++ </p>
+                            <p class="text-primary"> &nbsp; C) Colores</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -259,14 +259,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Ctrl P</p>
+                            <p class="text-primary"> &nbsp; D) RGB</p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 6 --}}
                     <div class="card">
                         <div class="card-header">
-                            6.- ¿Para qué nos ayuda el corrector ortográfico?
+                            6.- El operador de intersección es:
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -276,7 +276,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Para corregir ortográfica y gramática durante la escritura</p>
+                            <p class="text-primary"> &nbsp; A) ¡</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -286,7 +286,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Para omitir los errores ortográficos en una lectura</p>
+                            <p class="text-primary"> &nbsp; B) +</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -296,7 +296,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Para cambiar las letras que están en mayúsculas a minúsculas</p>
+                            <p class="text-primary"> &nbsp; C) Y</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -306,14 +306,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Para la gramática alfanumérica</p>
+                            <p class="text-primary"> &nbsp; D) !</p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 7 --}}
                     <div class="card">
                         <div class="card-header">
-                            7.- Si se subraya una palabra en color verde hace referencia a un error
+                            7.- Operadores aritméticos:
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -323,7 +323,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Para corregir ortográfica y gramática durante la escritura</p>
+                            <p class="text-primary"> &nbsp; A) /  * (S) /p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -333,7 +333,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Para omitir los errores ortográficos en una lectura</p>
+                            <p class="text-primary"> &nbsp; B)  X Y Z /p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -343,7 +343,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Para cambiar las letras que están en mayúsculas a minúsculas</p>
+                            <p class="text-primary"> &nbsp; C) + - / */p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -353,14 +353,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Para la gramática alfanumérica</p>
+                            <p class="text-primary"> &nbsp; D) * - * 0/p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 8 --}}
                     <div class="card">
                         <div class="card-header">
-                            8.- ¿Cómo activamos la barra de dibujo, si esta no está activa?
+                            8.- Si necesitamos saber el número de celdas vacías en un rango, lo haremos con esta función:
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -370,7 +370,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Ver / Barras de herramientas / Dibujo</p>
+                            <p class="text-primary"> &nbsp; A) CONTAR </p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -380,7 +380,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Archivo / Configuración General / Barra de dibujo / Activar</p>
+                            <p class="text-primary"> &nbsp; B) CONTAR.NULL</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -390,7 +390,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Herramientas / General / Autoformas / Dibujo</p>
+                            <p class="text-primary"> &nbsp; C) CONTAR.SUMA</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -400,14 +400,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Clic en el icono de dibujo</p>
+                            <p class="text-primary"> &nbsp; D) CONTAR.BLANCO</p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 9 --}}
                     <div class="card">
                         <div class="card-header">
-                            9.- ¿En qué apartado podemos modificar el formato de página?
+                            9.- La Previsualización de impresión del documento nos permite:
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -417,7 +417,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Referencia / Ver / modificar paginas
+                            <p class="text-primary"> &nbsp; A) Ver en pantalla el aspecto que tendrá nuestro documento cuando lo lancemos a la impresorainas
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -427,7 +427,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Clic en el menú Formato / Pagina</p>
+                            <p class="text-primary"> &nbsp; B) Imprimir un documento sin márgenes y sin celdas</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -437,7 +437,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Clic eh Herramientas / General / Propiedades / Paginas</p>
+                            <p class="text-primary"> &nbsp; C) Ver el objeto a manipular, previo a darle diseño en una pagina</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -447,14 +447,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Clic en el icono de dibujo</p>
+                            <p class="text-primary"> &nbsp; D) Extraer información de una hoja de cálculo, la cual permite imprimir la información deseada</p>
                         </div>
                     </div>
                     <br/>
                     {{-- Pregunta 10 --}}
                     <div class="card">
                         <div class="card-header">
-                            10.- ¿Cómo insertar una imagen desde internet?
+                            10.- ¿Como ponemos un formato condicional por fecha?
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -464,7 +464,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Referencia / Ver / modificar paginas</p>
+                            <p class="text-primary"> &nbsp; A) Accederemos al menú Formato / Ver / fecha</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -474,7 +474,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B) Abrir imagen, clic derecho, copiar y pegar en nuestro documento</p>
+                            <p class="text-primary"> &nbsp; B) Accederemos al menú Archivo / General / Ver / Mes</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -484,7 +484,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) Abrir el programa Google, Imágenes y ver</p>
+                            <p class="text-primary"> &nbsp; C) Ctrl + F + V</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -494,7 +494,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) Seleccionar imagen, clic izquierdo pegar</p>
+                            <p class="text-primary"> &nbsp; D) Accederemos al menú Formato > Formato condicional > Fecha...</p>
                         </div>
                     </div>
                     {{-- Botón envio --}}

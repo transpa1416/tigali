@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\CalcExamController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\LibreOfficeCalcController;
 use App\Http\Controllers\WriterExamController;
 
 /*
