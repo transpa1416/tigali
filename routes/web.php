@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\WriterExamController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,9 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+
+Route::get('course/writer/finalEvaluation', [WriterExamController::class, 'writerExam'])->name('writer.Exam');
+Route::get('course/calc/finalEvaluation', [CalcExamController::class, 'calcExam'])->name('calc.Exam');
 
 //Curso Writer
 Route::get('/course/writer', function () { return view('/coursePage/includes/writer/modules/intro'); });

@@ -337,18 +337,15 @@
                                 Evaluaciones y resultados
                             </button>
                         </h2>
-                        {{-- <div id="collapseExam" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
+                        <div id="collapseExam" class="collapse" aria-labelledby="writer10" data-parent="#accordionWriter">
                             <div class="card-body">
                                 <div class="list-group list-group-flush">
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
+                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer/finalEvaluation">
                                         <i class="fas fa-diagnoses"></i> Examen final
-                                    </a>
-                                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/course/writer">
-                                        <i class="fas fa-poll-h"></i> Resultados
                                     </a>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     {{-- Finaliza Examen final --}}
                 </div>
