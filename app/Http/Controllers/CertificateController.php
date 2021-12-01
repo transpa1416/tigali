@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\UsersHasOpportunities;
 
 use PDF;
 
@@ -11,27 +12,16 @@ class CertificateController extends Controller {
     // Export to PDF
     public function exportPDF() {
 
-        $data = [
-            'foo' => 'bar'
-          ];
-          $pdf = PDF::loadView('export_pdf', $data);
-          return $pdf->download('document.pdf');
+        set_time_limit(300);
 
-        /* set_time_limit(300);
-        $p = User::all();
+        $query = UsersHasOpportunities::with(['user'])
+        ->where('users_id', '=', auth()->id())
+        ->where('examsModule_id', '=', '2')
+        ->first();
 
-        view()->share('p', $p); */
+        return view('export_pdf', ['name' => auth()->user()->name, 'score' => $query->score]);
 
 
-/*         $mpdf = new \Mpdf\Mpdf(array(
-            'margin_top' => 65,     // 10mm
-            'margin_bottom' => 50,     // 10mm
-
-        ));
-
-        $mpdf = PDF::loadView('export_pdf', $p);
-        $mpdf->Output();
-        return $mpdf->stream('certificate.pdf'); */
 
     }
 }

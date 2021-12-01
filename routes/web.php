@@ -32,12 +32,14 @@ Route::post('custom-registration', [CustomAuthController::class, 'customRegistra
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 
 Route::get('course/writer/finalEvaluation', [WriterExamController::class, 'writerExam'])->name('writer.Exam');
-Route::post('course/writer/evaluate', [WriterExamController::class, 'writerExam'])->name('writer.exam.evaluate');
+Route::post('course/writer/evaluate', [WriterExamController::class, 'evaluate'])->name('writer.exam.evaluate');
+
+Route::get('course/writer/view-pdf', function () { return view('/export_pdf'); });
+Route::get('course/writer/create-pdf', [CertificateController::class, 'exportPDF']);
+
+
 Route::get('course/calc/finalEvaluation', [CalcExamController::class, 'calcExam'])->name('calc.Exam');
 
-
-Route::get('course/writer/create-pdf', [CertificateController::class, 'exportPDF']);
-Route::get('course/writer/view-pdf', function () { return view('/export_pdf'); });
 
 //Curso Writer
 Route::get('/course/writer', function () { return view('/coursePage/includes/writer/modules/intro'); });

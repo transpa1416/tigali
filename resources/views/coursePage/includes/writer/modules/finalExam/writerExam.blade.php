@@ -6,7 +6,7 @@
         <div class="card">
             <h3 class="card-header text-center">Examen Writer</h3>
             <div class="card-body">
-                <form method="POST" action="{{ route('login.custom') }}">
+                <form method="POST" action="{{ route('writer.exam.evaluate') }}">
                     @csrf
                     {{-- Pregunta 1 --}}
                     <div class="card">

@@ -10,7 +10,7 @@
 
     <style>
         .static {
-            top: 48%;
+            top: 50%;
             left: 33%;
 
             position:absolute;
@@ -30,7 +30,8 @@
         <img id="image" src="{{ asset('images/certificate/writer.jpg') }}" alt=""/>
     </div>
     <div class="static">
-        Nombre del participante
+        {{ $name; }} <br/>
+        Con una calificación de {{ $score; }}
     </div>
 </body>
 

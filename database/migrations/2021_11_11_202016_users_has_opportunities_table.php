@@ -18,6 +18,7 @@ class UsersHasOpportunitiesTable extends Migration
             $table->bigInteger('users_id')->unsigned()->index()->nullable()->comment('Llave foranea con tabla usuarios');
             $table->bigInteger('examsModule_id')->unsigned()->index()->nullable()->comment('Llave foranea con tabla ExamsModule');
             $table->integer('countOpportunities')->default(0)->comment("Cuenta de oportunidades");
+            $table->float('score')->default(0)->comment("calificación del examen");
             $table->boolean('isActive')->default(1);
             $table->timestamps();
             $table->foreign('users_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
