@@ -19,7 +19,7 @@ class WriterExamController extends Controller
         ->first();
         if ($query)
         {
-            if (!$query->isActive) {
+            if ($query->isActive) {
                 return view('coursePage.includes.writer.modules.finalExam.writerExam');
             } else {
                 return view('coursePage.includes.writer.modules.finalExam.passExam');
