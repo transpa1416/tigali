@@ -1,10 +1,12 @@
 <?php
 
 use App\Http\Controllers\CalcExamController;
+use App\Http\Controllers\CertificateController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\LibreOfficeCalcController;
 use App\Http\Controllers\WriterExamController;
+use phpseclib3\File\ASN1\Maps\Certificate;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +32,12 @@ Route::post('custom-registration', [CustomAuthController::class, 'customRegistra
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 
 Route::get('course/writer/finalEvaluation', [WriterExamController::class, 'writerExam'])->name('writer.Exam');
+Route::post('course/writer/evaluate', [WriterExamController::class, 'writerExam'])->name('writer.exam.evaluate');
 Route::get('course/calc/finalEvaluation', [CalcExamController::class, 'calcExam'])->name('calc.Exam');
+
+
+Route::get('course/writer/create-pdf', [CertificateController::class, 'exportPDF']);
+Route::get('course/writer/view-pdf', function () { return view('/export_pdf'); });
 
 //Curso Writer
 Route::get('/course/writer', function () { return view('/coursePage/includes/writer/modules/intro'); });
