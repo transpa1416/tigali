@@ -87,14 +87,14 @@ class WriterExamController extends Controller
         }
 
         if ($count >= 8) {
-            DB::connection()->table('usershasopportunities')
+            DB::connection()->table('UsersHasOpportunities')
                 ->where('users_id', '=', auth()->id())
                 ->where('examsModule_id', '=', '2')
                 ->update(['score' => $count, 'isActive' => 0]);
 
             return view('coursePage.includes.writer.modules.finalExam.passExam');
         } else {
-            DB::table('usershasopportunities')
+            DB::table('UsersHasOpportunities')
                 ->where('users_id', auth()->id())
                 ->where('examsModule_id', '=', '2')
                 ->increment('countOpportunities');
