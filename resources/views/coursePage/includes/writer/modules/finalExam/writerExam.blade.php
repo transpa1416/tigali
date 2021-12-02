@@ -4,9 +4,15 @@
 <main>
     <div class="cotainer">
         <div class="card">
-            <h3 class="card-header text-center">Examen Writer</h3>
+            <h3 class="card-header text-center">Bienvenido al de examen Writer </h3>
+            @if(session()->has('errorValidate'))
+                <div class="alert alert-danger">
+                    {{ session()->get('errorValidate') }}
+                </div>
+            @endif
+            <h4 class="text-center"> Tienes {{ $count }} /3 intentos para obtener el certificado </h4>
             <div class="card-body">
-                <form method="POST" action="{{ route('writer.exam.evaluate') }}">
+                <form method="POST" action="{{ route('writer.Exam.evaluate') }}">
                     @csrf
                     {{-- Pregunta 1 --}}
                     <div class="card">

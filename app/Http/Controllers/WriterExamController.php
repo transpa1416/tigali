@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Hash;
-use Session;
 use App\Models\UsersHasOpportunities;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
 
 class WriterExamController extends Controller
 {
@@ -20,7 +18,7 @@ class WriterExamController extends Controller
         if ($query)
         {
             if ($query->isActive) {
-                return view('coursePage.includes.writer.modules.finalExam.writerExam');
+                return view('coursePage.includes.writer.modules.finalExam.writerExam', ['count' => (3 - $query->countOpportunities)]);
             } else {
                 return view('coursePage.includes.writer.modules.finalExam.passExam');
             }
@@ -32,15 +30,14 @@ class WriterExamController extends Controller
             $opp->score = 0;
             $opp->isActive = 1;
             $opp->save();
-            return view('coursePage.includes.writer.modules.finalExam.writerExam');
+            return view('coursePage.includes.writer.modules.finalExam.writerExam', ['count' => 3]);
         }
-
     }
 
 
     public function evaluate(Request $request)
     {
-        $request->validate([
+        $validator = Validator::make($request->all(), [
             'qw01' => 'required',
             'qw02' => 'required',
             'qw03' => 'required',
@@ -53,9 +50,11 @@ class WriterExamController extends Controller
             'qw10' => 'required',
         ]);
 
-        $count = 0;
-        $answer['qw01'] = $request->get('qw01');
+        if ($validator->fails()) {
+            return back()->with('errorValidate', 'Todas las preguntas son requeridas, vuelvelo a intentar');
+        }
 
+        $count = 0;
         if ($request->get('qw01') == 'A' ) {
             $count++;
         }
@@ -95,7 +94,11 @@ class WriterExamController extends Controller
 
             return view('coursePage.includes.writer.modules.finalExam.passExam');
         } else {
-            return view('coursePage.includes.writer.modules.finalExam.writerExam');
+            DB::table('usershasopportunities')
+                ->where('users_id', auth()->id())
+                ->where('examsModule_id', '=', '2')
+                ->increment('countOpportunities');
+            return back()->with('errorValidate', 'Ops, no lo hiciste bien, vuelve a intentarlo');
         }
     }
 }

@@ -4,9 +4,15 @@
 <main>
     <div class="cotainer">
         <div class="card">
-            <h3 class="card-header text-center">Examen Calc</h3>
+            <h3 class="card-header text-center">Bienvenido al de examen Calc</h3>
+            @if(session()->has('errorValidate'))
+                <div class="alert alert-danger">
+                    {{ session()->get('errorValidate') }}
+                </div>
+            @endif
+            <h4 class="text-center"> Tienes {{ $count }} /3 intentos para obtener el certificado </h4>
             <div class="card-body">
-                <form method="POST" action="{{ route('login.custom') }}">
+                <form method="POST" action="{{ route('calc.Exam.evaluate') }}">
                     @csrf
                     {{-- Pregunta 1 --}}
                     <div class="card">
@@ -17,7 +23,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw01" id="qw01" value="A">
+                                        <input class="form-check-input" type="radio" name="qc01" id="qc01" value="A">
 
                                     </div>
                                 </div>
@@ -28,7 +34,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw01" id="qw01" value="B">
+                                        <input class="form-check-input" type="radio" name="qc01" id="qc01" value="B">
 
                                     </div>
                                 </div>
@@ -39,7 +45,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw01" id="qw01" value="C">
+                                        <input class="form-check-input" type="radio" name="qc01" id="qc01" value="C">
 
                                     </div>
                                 </div>
@@ -50,7 +56,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw01" id="qw01" value="D">
+                                        <input class="form-check-input" type="radio" name="qc01" id="qc01" value="D">
 
                                     </div>
                                 </div>
@@ -68,7 +74,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw02" id="qw02" value="A">
+                                        <input class="form-check-input" type="radio" name="qc02" id="qc02" value="A">
 
                                     </div>
                                 </div>
@@ -79,7 +85,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw02" id="qw02" value="B">
+                                        <input class="form-check-input" type="radio" name="qc02" id="qc02" value="B">
 
                                     </div>
                                 </div>
@@ -90,7 +96,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw02" id="qw02" value="C">
+                                        <input class="form-check-input" type="radio" name="qc02" id="qc02" value="C">
 
                                     </div>
                                 </div>
@@ -101,7 +107,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw02" id="qw02" value="D">
+                                        <input class="form-check-input" type="radio" name="qc02" id="qc02" value="D">
 
                                     </div>
                                 </div>
@@ -119,7 +125,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw03" id="qw03" value="A">
+                                        <input class="form-check-input" type="radio" name="qc03" id="qc03" value="A">
 
                                     </div>
                                 </div>
@@ -130,7 +136,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw03" id="qw03" value="B">
+                                        <input class="form-check-input" type="radio" name="qc03" id="qc03" value="B">
 
                                     </div>
                                 </div>
@@ -141,7 +147,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw03" id="qw03" value="C">
+                                        <input class="form-check-input" type="radio" name="qc03" id="qc03" value="C">
 
                                     </div>
                                 </div>
@@ -152,7 +158,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw03" id="qw03" value="D">
+                                        <input class="form-check-input" type="radio" name="qc03" id="qc03" value="D">
 
                                     </div>
                                 </div>
@@ -170,7 +176,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw04" id="qw04" value="A">
+                                        <input class="form-check-input" type="radio" name="qc04" id="qc04" value="A">
 
                                     </div>
                                 </div>
@@ -181,7 +187,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw04" id="qw04" value="B">
+                                        <input class="form-check-input" type="radio" name="qc04" id="qc04" value="B">
 
                                     </div>
                                 </div>
@@ -192,7 +198,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw04" id="qw04" value="C">
+                                        <input class="form-check-input" type="radio" name="qc04" id="qc04" value="C">
 
                                     </div>
                                 </div>
@@ -203,7 +209,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw04" id="qw04" value="D">
+                                        <input class="form-check-input" type="radio" name="qc04" id="qc04" value="D">
 
                                     </div>
                                 </div>
@@ -221,7 +227,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw05" id="qw05" value="A">
+                                        <input class="form-check-input" type="radio" name="qc05" id="qc05" value="A">
 
                                     </div>
                                 </div>
@@ -232,7 +238,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw05" id="qw05" value="B">
+                                        <input class="form-check-input" type="radio" name="qc05" id="qc05" value="B">
 
                                     </div>
                                 </div>
@@ -243,7 +249,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw05" id="qw05" value="C">
+                                        <input class="form-check-input" type="radio" name="qc05" id="qc05" value="C">
 
                                     </div>
                                 </div>
@@ -254,7 +260,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw05" id="qw05" value="D">
+                                        <input class="form-check-input" type="radio" name="qc05" id="qc05" value="D">
 
                                     </div>
                                 </div>
@@ -272,7 +278,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw06" id="qw06" value="A">
+                                        <input class="form-check-input" type="radio" name="qc06" id="qc06" value="A">
                                     </div>
                                 </div>
                             </div>
@@ -282,7 +288,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw06" id="qw06" value="B">
+                                        <input class="form-check-input" type="radio" name="qc06" id="qc06" value="B">
                                     </div>
                                 </div>
                             </div>
@@ -292,7 +298,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw06" id="qw06" value="C">
+                                        <input class="form-check-input" type="radio" name="qc06" id="qc06" value="C">
                                     </div>
                                 </div>
                             </div>
@@ -302,7 +308,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw06" id="qw06" value="D">
+                                        <input class="form-check-input" type="radio" name="qc06" id="qc06" value="D">
                                     </div>
                                 </div>
                             </div>
@@ -319,41 +325,41 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw07" id="qw07" value="A">
+                                        <input class="form-check-input" type="radio" name="qc07" id="qc07" value="A">
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) /  * (S) /p>
+                            <p class="text-primary"> &nbsp; A) /  * (S)</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw07" id="qw07" value="B">
+                                        <input class="form-check-input" type="radio" name="qc07" id="qc07" value="B">
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; B)  X Y Z /p>
+                            <p class="text-primary"> &nbsp; B)  X Y Z</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw07" id="qw07" value="C">
+                                        <input class="form-check-input" type="radio" name="qc07" id="qc07" value="C">
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; C) + - / */p>
+                            <p class="text-primary"> &nbsp; C) + - / *</p>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw07" id="qw07" value="D">
+                                        <input class="form-check-input" type="radio" name="qc07" id="qc07" value="D">
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; D) * - * 0/p>
+                            <p class="text-primary"> &nbsp; D) * - * 0</p>
                         </div>
                     </div>
                     <br/>
@@ -366,7 +372,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw08" id="qw08" value="A">
+                                        <input class="form-check-input" type="radio" name="qc08" id="qc08" value="A">
                                     </div>
                                 </div>
                             </div>
@@ -376,7 +382,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw08" id="qw08" value="B">
+                                        <input class="form-check-input" type="radio" name="qc08" id="qc08" value="B">
                                     </div>
                                 </div>
                             </div>
@@ -386,7 +392,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw08" id="qw08" value="C">
+                                        <input class="form-check-input" type="radio" name="qc08" id="qc08" value="C">
                                     </div>
                                 </div>
                             </div>
@@ -396,7 +402,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw08" id="qw08" value="D">
+                                        <input class="form-check-input" type="radio" name="qc08" id="qc08" value="D">
                                     </div>
                                 </div>
                             </div>
@@ -413,17 +419,17 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw09" id="qw09" value="A">
+                                        <input class="form-check-input" type="radio" name="qc09" id="qc09" value="A">
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-primary"> &nbsp; A) Ver en pantalla el aspecto que tendrá nuestro documento cuando lo lancemos a la impresorainas
+                            <p class="text-primary"> &nbsp; A) Ver en pantalla el aspecto que tendrá nuestro documento
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw09" id="qw09" value="B">
+                                        <input class="form-check-input" type="radio" name="qc09" id="qc09" value="B">
                                     </div>
                                 </div>
                             </div>
@@ -433,7 +439,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw09" id="qw09" value="C">
+                                        <input class="form-check-input" type="radio" name="qc09" id="qc09" value="C">
                                     </div>
                                 </div>
                             </div>
@@ -443,7 +449,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw09" id="qw09" value="D">
+                                        <input class="form-check-input" type="radio" name="qc09" id="qc09" value="D">
                                     </div>
                                 </div>
                             </div>
@@ -460,7 +466,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw10" id="qw10" value="A">
+                                        <input class="form-check-input" type="radio" name="qc10" id="qc10" value="A">
                                     </div>
                                 </div>
                             </div>
@@ -470,7 +476,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw10" id="qw10" value="B">
+                                        <input class="form-check-input" type="radio" name="qc10" id="qc10" value="B">
                                     </div>
                                 </div>
                             </div>
@@ -480,7 +486,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw10" id="qw10" value="C">
+                                        <input class="form-check-input" type="radio" name="qc10" id="qc10" value="C">
                                     </div>
                                 </div>
                             </div>
@@ -490,7 +496,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="qw10" id="qw10" value="D">
+                                        <input class="form-check-input" type="radio" name="qc10" id="qc10" value="D">
                                     </div>
                                 </div>
                             </div>

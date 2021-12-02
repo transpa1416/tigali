@@ -18,8 +18,22 @@ class CertificateController extends Controller {
         ->where('users_id', '=', auth()->id())
         ->where('examsModule_id', '=', '2')
         ->first();
+        return view('export_pdf', ['name' => auth()->user()->name, 'score' => $query->score, 'course' => 'LibreOffice Writer']);
 
-        return view('export_pdf', ['name' => auth()->user()->name, 'score' => $query->score]);
+
+
+    }
+
+    // Export to PDF
+    public function exportPDFCalc() {
+
+        set_time_limit(300);
+
+        $query = UsersHasOpportunities::with(['user'])
+        ->where('users_id', '=', auth()->id())
+        ->where('examsModule_id', '=', '1')
+        ->first();
+        return view('export_pdf', ['name' => auth()->user()->name, 'score' => $query->score, 'course' => 'LibreOffice Calc']);
 
 
 
